@@ -4,11 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "start": "react-scripts start --host 0.0.0.0"
+    "dev": "vite",  // Vite development server
+    "build": "vite build",  // Build the app for production
+    "lint": "eslint .",  // Lint the code
+    "preview": "vite preview",  // Preview the production build
+    "start": "vite preview --host 0.0.0.0"  // Start the production preview on all interfaces
   },
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
